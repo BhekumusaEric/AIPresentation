@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>AI in Finance</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"></rect>
+        
+        <!-- Title -->
+        <text font-family="Arial" font-size="24" font-weight="bold" fill="#1A2980" text-anchor="middle" x="400" y="40">
+            AI Applications in Finance
+        </text>
+        
+        <!-- Background Elements -->
+        <rect fill="#FFFFFF" x="100" y="80" width="600" height="380" rx="10"></rect>
+        
+        <!-- Stock Chart -->
+        <polyline points="150,350 200,320 250,340 300,280 350,300 400,250 450,220 500,240 550,180 600,150 650,170" 
+                 stroke="#26D0CE" stroke-width="3" fill="none"></polyline>
+        
+        <!-- X Axis -->
+        <line x1="150" y1="380" x2="650" y2="380" stroke="#333333" stroke-width="2"></line>
+        
+        <!-- Y Axis -->
+        <line x1="150" y1="150" x2="150" y2="380" stroke="#333333" stroke-width="2"></line>
+        
+        <!-- AI Elements -->
+        <circle fill="#1A2980" cx="200" cy="150" r="40"></circle>
+        <text font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="200" y="145">
+            Fraud
+        </text>
+        <text font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="200" y="165">
+            Detection
+        </text>
+        
+        <circle fill="#1A2980" cx="350" cy="150" r="40"></circle>
+        <text font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="350" y="145">
+            Algorithmic
+        </text>
+        <text font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="350" y="165">
+            Trading
+        </text>
+        
+        <circle fill="#1A2980" cx="500" cy="150" r="40"></circle>
+        <text font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="500" y="145">
+            Risk
+        </text>
+        <text font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="500" y="165">
+            Assessment
+        </text>
+        
+        <circle fill="#1A2980" cx="650" cy="150" r="40"></circle>
+        <text font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="650" y="145">
+            Customer
+        </text>
+        <text font-family="Arial" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="650" y="165">
+            Service
+        </text>
+        
+        <!-- Financial Icons -->
+        <rect fill="#FF4081" x="180" y="320" width="40" height="40" rx="5"></rect>
+        <text font-family="Arial" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="200" y="345">
+            $
+        </text>
+        
+        <rect fill="#FF4081" x="330" y="320" width="40" height="40" rx="5"></rect>
+        <text font-family="Arial" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="350" y="345">
+            €
+        </text>
+        
+        <rect fill="#FF4081" x="480" y="320" width="40" height="40" rx="5"></rect>
+        <text font-family="Arial" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="500" y="345">
+            £
+        </text>
+        
+        <rect fill="#FF4081" x="630" y="320" width="40" height="40" rx="5"></rect>
+        <text font-family="Arial" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="650" y="345">
+            ¥
+        </text>
+        
+        <!-- Central AI Element -->
+        <circle fill="#26D0CE" cx="400" cy="250" r="50"></circle>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="245">
+            AI in
+        </text>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="270">
+            Finance
+        </text>
+    </g>
+</svg>

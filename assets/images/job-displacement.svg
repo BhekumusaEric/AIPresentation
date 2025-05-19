@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Job Displacement Graph</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"></rect>
+        
+        <!-- Chart Background -->
+        <rect fill="#FFFFFF" x="100" y="50" width="600" height="400" rx="10"></rect>
+        
+        <!-- Chart Title -->
+        <text font-family="Arial" font-size="24" font-weight="bold" fill="#1A2980" text-anchor="middle" x="400" y="30">
+            Job Displacement vs. Creation by AI (2020-2030)
+        </text>
+        
+        <!-- X Axis -->
+        <line x1="100" y1="450" x2="700" y2="450" stroke="#333333" stroke-width="2"></line>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="175" y="480">
+            2020
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="325" y="480">
+            2023
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="475" y="480">
+            2026
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="625" y="480">
+            2030
+        </text>
+        
+        <!-- Y Axis -->
+        <line x1="100" y1="50" x2="100" y2="450" stroke="#333333" stroke-width="2"></line>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="450">
+            0M
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="350">
+            25M
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="250">
+            50M
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="150">
+            75M
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="50">
+            100M
+        </text>
+        
+        <!-- Grid Lines -->
+        <line x1="100" y1="350" x2="700" y2="350" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="5,5"></line>
+        <line x1="100" y1="250" x2="700" y2="250" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="5,5"></line>
+        <line x1="100" y1="150" x2="700" y2="150" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="5,5"></line>
+        
+        <!-- Jobs Displaced Line -->
+        <path d="M175,420 L325,350 L475,250 L625,100" stroke="#F44336" stroke-width="3" fill="none"></path>
+        <circle fill="#F44336" cx="175" cy="420" r="6"></circle>
+        <circle fill="#F44336" cx="325" cy="350" r="6"></circle>
+        <circle fill="#F44336" cx="475" cy="250" r="6"></circle>
+        <circle fill="#F44336" cx="625" cy="100" r="6"></circle>
+        
+        <!-- Jobs Created Line -->
+        <path d="M175,430 L325,380 L475,300 L625,200" stroke="#4CAF50" stroke-width="3" fill="none"></path>
+        <circle fill="#4CAF50" cx="175" cy="430" r="6"></circle>
+        <circle fill="#4CAF50" cx="325" cy="380" r="6"></circle>
+        <circle fill="#4CAF50" cx="475" cy="300" r="6"></circle>
+        <circle fill="#4CAF50" cx="625" cy="200" r="6"></circle>
+        
+        <!-- Net Impact Area -->
+        <path d="M175,420 L325,350 L475,250 L625,100 L625,200 L475,300 L325,380 L175,430 Z" fill="#FF4081" fill-opacity="0.2"></path>
+        
+        <!-- Legend -->
+        <line x1="550" y1="20" x2="570" y2="20" stroke="#F44336" stroke-width="3"></line>
+        <text font-family="Arial" font-size="14" fill="#333333" x="580" y="25">
+            Jobs Displaced
+        </text>
+        
+        <line x1="550" y1="45" x2="570" y2="45" stroke="#4CAF50" stroke-width="3"></line>
+        <text font-family="Arial" font-size="14" fill="#333333" x="580" y="50">
+            Jobs Created
+        </text>
+    </g>
+</svg>

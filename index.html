@@ -9,17 +9,25 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Lottie Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
             <!-- Title Slide -->
-            <section class="title-slide">
-                <h1>Artificial Intelligence (AI)</h1>
-                <h2>Yes or No?</h2>
-                <p class="author">A Comprehensive Analysis</p>
-                <div class="navigation-hint">
-                    <p><small>Use arrow keys or swipe to navigate</small></p>
+            <section class="title-slide" data-background-gradient="linear-gradient(to bottom right, #1a2980, #26d0ce)">
+                <div class="title-content">
+                    <h1 class="animate-title">Artificial Intelligence (AI)</h1>
+                    <h2 class="animate-subtitle">Yes or No?</h2>
+                    <div class="robot-animation" id="robotAnimation"></div>
+                    <p class="author animate-author">A Comprehensive Analysis</p>
+                    <div class="navigation-hint">
+                        <p><small>Use arrow keys or swipe to navigate</small></p>
+                    </div>
                 </div>
             </section>
 
@@ -38,16 +46,16 @@
                 <section>
                     <h3>Key Components of AI</h3>
                     <div class="two-column">
-                        <div>
-                            <ul>
-                                <li>Machine Learning</li>
-                                <li>Neural Networks</li>
-                                <li>Deep Learning</li>
-                                <li>Natural Language Processing</li>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <ul class="component-list">
+                                <li class="highlight-item">Machine Learning</li>
+                                <li class="highlight-item">Neural Networks</li>
+                                <li class="highlight-item">Deep Learning</li>
+                                <li class="highlight-item">Natural Language Processing</li>
                             </ul>
                         </div>
-                        <div>
-                            <img src="assets/images/ai-components.png" alt="AI Components Diagram">
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                            <img src="assets/images/ai-components.svg" alt="AI Components Diagram" class="svg-image">
                         </div>
                     </div>
                     <div class="notes">
@@ -96,16 +104,16 @@
                 <section>
                     <h3>Efficiency and Productivity</h3>
                     <div class="two-column">
-                        <div>
-                            <ul class="fade-in">
-                                <li>Automation of repetitive tasks</li>
-                                <li>24/7 operation without fatigue</li>
-                                <li>Faster processing of large datasets</li>
-                                <li>Reduced human error</li>
+                        <div data-aos="fade-up" data-aos-duration="800">
+                            <ul class="advantage-list">
+                                <li class="advantage-item">Automation of repetitive tasks</li>
+                                <li class="advantage-item">24/7 operation without fatigue</li>
+                                <li class="advantage-item">Faster processing of large datasets</li>
+                                <li class="advantage-item">Reduced human error</li>
                             </ul>
                         </div>
-                        <div>
-                            <img src="assets/images/ai-efficiency.png" alt="AI Efficiency Chart">
+                        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="assets/images/ai-efficiency.svg" alt="AI Efficiency Chart" class="svg-image">
                         </div>
                     </div>
                     <div class="citation">Source: McKinsey Global Institute, "Notes from the AI frontier: Applications and value of deep learning", 2018</div>
@@ -117,15 +125,15 @@
                 <section>
                     <h3>Enhanced Decision Making</h3>
                     <div class="two-column">
-                        <div>
-                            <img src="assets/images/ai-decision-making.png" alt="AI Decision Making Process">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <img src="assets/images/ai-decision-making.svg" alt="AI Decision Making Process" class="svg-image">
                         </div>
-                        <div class="slide-in-right">
-                            <ul>
-                                <li>Data-driven insights</li>
-                                <li>Pattern recognition in complex data</li>
-                                <li>Predictive analytics</li>
-                                <li>Reduced cognitive bias</li>
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <ul class="decision-list">
+                                <li class="decision-item">Data-driven insights</li>
+                                <li class="decision-item">Pattern recognition in complex data</li>
+                                <li class="decision-item">Predictive analytics</li>
+                                <li class="decision-item">Reduced cognitive bias</li>
                             </ul>
                         </div>
                     </div>
@@ -136,14 +144,19 @@
 
                 <section>
                     <h3>Personalization at Scale</h3>
-                    <p>AI enables customized experiences for millions of users simultaneously:</p>
-                    <div class="pros">
-                        <ul>
-                            <li>Tailored content recommendations</li>
-                            <li>Personalized healthcare treatments</li>
-                            <li>Customized learning experiences</li>
-                            <li>Individualized customer service</li>
-                        </ul>
+                    <p data-aos="fade-up" data-aos-duration="800">AI enables customized experiences for millions of users simultaneously:</p>
+                    <div class="two-column">
+                        <div class="pros" data-aos="fade-right" data-aos-duration="1000">
+                            <ul class="personalization-list">
+                                <li class="personalization-item">Tailored content recommendations</li>
+                                <li class="personalization-item">Personalized healthcare treatments</li>
+                                <li class="personalization-item">Customized learning experiences</li>
+                                <li class="personalization-item">Individualized customer service</li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <div class="ai-brain-animation" id="aiBrainAnimation"></div>
+                        </div>
                     </div>
                     <audio id="personalization-audio" src="assets/audio/personalization.mp3"></audio>
                     <button class="audio-button" data-audio="personalization-audio"><i class="fas fa-play"></i></button>
@@ -168,19 +181,19 @@
                 <section>
                     <h3>Job Displacement</h3>
                     <div class="two-column">
-                        <div>
-                            <img src="assets/images/job-displacement.png" alt="Job Displacement Graph">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <img src="assets/images/job-displacement.svg" alt="Job Displacement Graph" class="svg-image">
                         </div>
-                        <div class="cons">
-                            <ul class="fade-in">
-                                <li>Automation of routine jobs</li>
-                                <li>Rapid transformation of labor markets</li>
-                                <li>Skills gap and retraining challenges</li>
-                                <li>Economic inequality concerns</li>
+                        <div class="cons" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <ul class="displacement-list">
+                                <li class="displacement-item">Automation of routine jobs</li>
+                                <li class="displacement-item">Rapid transformation of labor markets</li>
+                                <li class="displacement-item">Skills gap and retraining challenges</li>
+                                <li class="displacement-item">Economic inequality concerns</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="citation">Source: World Economic Forum, "The Future of Jobs Report", 2020</div>
+                    <div class="citation" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">Source: World Economic Forum, "The Future of Jobs Report", 2020</div>
                     <div class="notes">
                         While AI creates new jobs, it also eliminates others, particularly those involving routine tasks. This displacement can lead to economic hardship for affected workers.
                     </div>
@@ -208,16 +221,16 @@
                 <section>
                     <h3>Algorithmic Bias and Fairness</h3>
                     <div class="two-column">
-                        <div class="cons">
-                            <ul>
-                                <li>Biased training data leads to biased outcomes</li>
-                                <li>Reinforcement of existing inequalities</li>
-                                <li>Lack of transparency in decision-making</li>
-                                <li>Difficulty in detecting and correcting bias</li>
+                        <div class="cons" data-aos="fade-right" data-aos-duration="1000">
+                            <ul class="bias-list">
+                                <li class="bias-item">Biased training data leads to biased outcomes</li>
+                                <li class="bias-item">Reinforcement of existing inequalities</li>
+                                <li class="bias-item">Lack of transparency in decision-making</li>
+                                <li class="bias-item">Difficulty in detecting and correcting bias</li>
                             </ul>
                         </div>
-                        <div>
-                            <img src="assets/images/algorithmic-bias.png" alt="Algorithmic Bias Illustration">
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="assets/images/algorithmic-bias.svg" alt="Algorithmic Bias Illustration" class="svg-image">
                         </div>
                     </div>
                     <div class="notes">
@@ -239,17 +252,17 @@
                 <section>
                     <h3>Healthcare</h3>
                     <div class="two-column">
-                        <div>
-                            <ul class="fade-in">
-                                <li>Disease diagnosis and prediction</li>
-                                <li>Drug discovery and development</li>
-                                <li>Personalized treatment plans</li>
-                                <li>Medical imaging analysis</li>
-                                <li>Robot-assisted surgery</li>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <ul class="healthcare-list">
+                                <li class="healthcare-item">Disease diagnosis and prediction</li>
+                                <li class="healthcare-item">Drug discovery and development</li>
+                                <li class="healthcare-item">Personalized treatment plans</li>
+                                <li class="healthcare-item">Medical imaging analysis</li>
+                                <li class="healthcare-item">Robot-assisted surgery</li>
                             </ul>
                         </div>
-                        <div>
-                            <img src="assets/images/ai-healthcare.png" alt="AI in Healthcare">
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="assets/images/ai-healthcare.svg" alt="AI in Healthcare" class="svg-image">
                         </div>
                     </div>
                     <div class="notes">
@@ -260,16 +273,16 @@
                 <section>
                     <h3>Finance</h3>
                     <div class="two-column">
-                        <div>
-                            <img src="assets/images/ai-finance.png" alt="AI in Finance">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <img src="assets/images/ai-finance.svg" alt="AI in Finance" class="svg-image">
                         </div>
-                        <div class="slide-in-right">
-                            <ul>
-                                <li>Fraud detection and prevention</li>
-                                <li>Algorithmic trading</li>
-                                <li>Credit scoring and risk assessment</li>
-                                <li>Customer service chatbots</li>
-                                <li>Financial forecasting</li>
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <ul class="finance-list">
+                                <li class="finance-item">Fraud detection and prevention</li>
+                                <li class="finance-item">Algorithmic trading</li>
+                                <li class="finance-item">Credit scoring and risk assessment</li>
+                                <li class="finance-item">Customer service chatbots</li>
+                                <li class="finance-item">Financial forecasting</li>
                             </ul>
                         </div>
                     </div>
@@ -281,17 +294,17 @@
                 <section>
                     <h3>Transportation</h3>
                     <div class="two-column">
-                        <div class="fade-in">
-                            <ul>
-                                <li>Autonomous vehicles</li>
-                                <li>Traffic management systems</li>
-                                <li>Predictive maintenance</li>
-                                <li>Route optimization</li>
-                                <li>Safety monitoring</li>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <ul class="transportation-list">
+                                <li class="transportation-item">Autonomous vehicles</li>
+                                <li class="transportation-item">Traffic management systems</li>
+                                <li class="transportation-item">Predictive maintenance</li>
+                                <li class="transportation-item">Route optimization</li>
+                                <li class="transportation-item">Safety monitoring</li>
                             </ul>
                         </div>
-                        <div>
-                            <img src="assets/images/ai-transportation.png" alt="AI in Transportation">
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="assets/images/ai-transportation.svg" alt="AI in Transportation" class="svg-image">
                         </div>
                     </div>
                     <audio id="transportation-audio" src="assets/audio/transportation.mp3"></audio>
@@ -315,20 +328,20 @@
                 <section>
                     <h3>Financial Costs</h3>
                     <div class="two-column">
-                        <div>
-                            <img src="assets/images/financial-costs.png" alt="AI Financial Costs Chart">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <img src="assets/images/financial-costs.svg" alt="AI Financial Costs Chart" class="svg-image">
                         </div>
-                        <div class="fade-in">
-                            <ul>
-                                <li>High initial investment</li>
-                                <li>Ongoing maintenance and updates</li>
-                                <li>Specialized talent acquisition</li>
-                                <li>Data storage and processing</li>
-                                <li>Integration with existing systems</li>
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <ul class="financial-list">
+                                <li class="financial-item">High initial investment</li>
+                                <li class="financial-item">Ongoing maintenance and updates</li>
+                                <li class="financial-item">Specialized talent acquisition</li>
+                                <li class="financial-item">Data storage and processing</li>
+                                <li class="financial-item">Integration with existing systems</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="citation">Source: Gartner, "AI Implementation Costs Report", 2022</div>
+                    <div class="citation" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">Source: Gartner, "AI Implementation Costs Report", 2022</div>
                     <div class="notes">
                         Implementing AI systems requires significant financial investment, from hardware and software to specialized talent and ongoing maintenance.
                     </div>
@@ -353,19 +366,19 @@
                 <section>
                     <h3>Environmental Costs</h3>
                     <div class="two-column">
-                        <div class="fade-in">
-                            <ul>
-                                <li>Energy consumption of data centers</li>
-                                <li>Carbon footprint of training large models</li>
-                                <li>Hardware production and e-waste</li>
-                                <li>Water usage for cooling systems</li>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <ul class="environmental-list">
+                                <li class="environmental-item">Energy consumption of data centers</li>
+                                <li class="environmental-item">Carbon footprint of training large models</li>
+                                <li class="environmental-item">Hardware production and e-waste</li>
+                                <li class="environmental-item">Water usage for cooling systems</li>
                             </ul>
                         </div>
-                        <div>
-                            <img src="assets/images/environmental-costs.png" alt="AI Environmental Impact">
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="assets/images/environmental-costs.svg" alt="AI Environmental Impact" class="svg-image">
                         </div>
                     </div>
-                    <div class="citation">Source: MIT Technology Review, "The carbon impact of artificial intelligence", 2023</div>
+                    <div class="citation" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">Source: MIT Technology Review, "The carbon impact of artificial intelligence", 2023</div>
                     <div class="notes">
                         Training large AI models requires enormous computational resources, resulting in significant energy consumption and carbon emissions.
                     </div>
@@ -384,23 +397,26 @@
 
                 <section>
                     <h3>Weighing the Pros and Cons</h3>
+                    <div class="balance-animation-container">
+                        <div id="balanceScaleAnimation" class="balance-animation"></div>
+                    </div>
                     <div class="pros-cons">
-                        <div class="pros">
+                        <div class="pros" data-aos="fade-right" data-aos-duration="1000">
                             <h4>Advantages</h4>
-                            <ul>
-                                <li>Increased efficiency and productivity</li>
-                                <li>Enhanced decision-making capabilities</li>
-                                <li>Personalization at scale</li>
-                                <li>Innovation in critical fields</li>
+                            <ul class="pros-list">
+                                <li class="pros-item">Increased efficiency and productivity</li>
+                                <li class="pros-item">Enhanced decision-making capabilities</li>
+                                <li class="pros-item">Personalization at scale</li>
+                                <li class="pros-item">Innovation in critical fields</li>
                             </ul>
                         </div>
-                        <div class="cons">
+                        <div class="cons" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                             <h4>Disadvantages</h4>
-                            <ul>
-                                <li>Job displacement concerns</li>
-                                <li>Privacy and surveillance issues</li>
-                                <li>Algorithmic bias and fairness</li>
-                                <li>Various implementation costs</li>
+                            <ul class="cons-list">
+                                <li class="cons-item">Job displacement concerns</li>
+                                <li class="cons-item">Privacy and surveillance issues</li>
+                                <li class="cons-item">Algorithmic bias and fairness</li>
+                                <li class="cons-item">Various implementation costs</li>
                             </ul>
                         </div>
                     </div>

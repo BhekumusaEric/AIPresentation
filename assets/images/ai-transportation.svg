@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>AI in Transportation</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"></rect>
+        
+        <!-- Title -->
+        <text font-family="Arial" font-size="24" font-weight="bold" fill="#1A2980" text-anchor="middle" x="400" y="40">
+            AI Applications in Transportation
+        </text>
+        
+        <!-- Road Background -->
+        <rect fill="#333333" x="100" y="300" width="600" height="80"></rect>
+        <line x1="150" y1="340" x2="200" y2="340" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="30,20"></line>
+        <line x1="250" y1="340" x2="300" y2="340" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="30,20"></line>
+        <line x1="350" y1="340" x2="400" y2="340" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="30,20"></line>
+        <line x1="450" y1="340" x2="500" y2="340" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="30,20"></line>
+        <line x1="550" y1="340" x2="600" y2="340" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="30,20"></line>
+        <line x1="650" y1="340" x2="700" y2="340" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="30,20"></line>
+        
+        <!-- Self-Driving Car -->
+        <rect fill="#26D0CE" x="200" y="310" width="80" height="40" rx="10"></rect>
+        <circle fill="#333333" cx="220" cy="350" r="10"></circle>
+        <circle fill="#333333" cx="260" cy="350" r="10"></circle>
+        <rect fill="#1A2980" x="210" y="320" width="40" height="15"></rect>
+        
+        <!-- Traffic Lights -->
+        <rect fill="#333333" x="400" y="200" width="20" height="100"></rect>
+        <rect fill="#333333" x="380" y="150" width="60" height="50" rx="5"></rect>
+        <circle fill="#FF0000" cx="400" cy="165" r="10"></circle>
+        <circle fill="#FFFF00" cx="400" cy="185" r="10"></circle>
+        <circle fill="#00FF00" cx="400" cy="205" r="10"></circle>
+        
+        <!-- AI Brain Above Car -->
+        <circle fill="#1A2980" opacity="0.8" cx="240" cy="250" r="40"></circle>
+        <path d="M240,230 C250,230 255,220 255,215 C255,210 250,200 240,200 C230,200 225,210 225,215 C225,220 230,230 240,230 Z" 
+              fill="#FFFFFF"></path>
+        <path d="M240,230 C250,230 260,235 260,245 C260,255 250,260 240,260 C230,260 220,255 220,245 C220,235 230,230 240,230 Z" 
+              fill="#FFFFFF"></path>
+        <path d="M240,250 L240,280" stroke="#FFFFFF" stroke-width="2"></path>
+        
+        <!-- Connection Lines -->
+        <path d="M240,290 L240,310" stroke="#FF4081" stroke-width="2" stroke-dasharray="5,3"></path>
+        
+        <!-- AI Features -->
+        <circle fill="#FF4081" cx="150" cy="200" r="30"></circle>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="150" y="205">
+            Route
+        </text>
+        <path d="M150,230 L220,250" stroke="#FF4081" stroke-width="2" stroke-dasharray="5,3"></path>
+        
+        <circle fill="#FF4081" cx="330" cy="200" r="30"></circle>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="330" y="205">
+            Safety
+        </text>
+        <path d="M330,230 L260,250" stroke="#FF4081" stroke-width="2" stroke-dasharray="5,3"></path>
+        
+        <circle fill="#FF4081" cx="500" cy="200" r="30"></circle>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="500" y="205">
+            Traffic
+        </text>
+        <path d="M470,200 L430,200" stroke="#FF4081" stroke-width="2" stroke-dasharray="5,3"></path>
+        
+        <circle fill="#FF4081" cx="600" cy="200" r="30"></circle>
+        <text font-family="Arial" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="600" y="205">
+            Predict
+        </text>
+        <path d="M570,200 L530,200" stroke="#FF4081" stroke-width="2" stroke-dasharray="5,3"></path>
+        
+        <!-- Other Vehicles -->
+        <rect fill="#CCCCCC" x="500" y="315" width="70" height="30" rx="5"></rect>
+        <circle fill="#333333" cx="515" cy="345" r="8"></circle>
+        <circle fill="#333333" cx="555" cy="345" r="8"></circle>
+        
+        <rect fill="#CCCCCC" x="600" y="320" width="50" height="25" rx="5"></rect>
+        <circle fill="#333333" cx="610" cy="345" r="6"></circle>
+        <circle fill="#333333" cx="640" cy="345" r="6"></circle>
+    </g>
+</svg>

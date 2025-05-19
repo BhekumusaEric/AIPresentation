@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>AI Components</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F5F5" x="0" y="0" width="800" height="600"></rect>
+        
+        <!-- Central Brain -->
+        <circle fill="#26D0CE" cx="400" cy="300" r="120"></circle>
+        <text font-family="Arial" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="310">
+            Artificial Intelligence
+        </text>
+        
+        <!-- Machine Learning -->
+        <circle fill="#1A2980" cx="200" cy="150" r="80"></circle>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="200" y="155">
+            Machine Learning
+        </text>
+        <path d="M280,150 L320,220" stroke="#1A2980" stroke-width="4"></path>
+        
+        <!-- Neural Networks -->
+        <circle fill="#1A2980" cx="600" cy="150" r="80"></circle>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="600" y="155">
+            Neural Networks
+        </text>
+        <path d="M520,150 L480,220" stroke="#1A2980" stroke-width="4"></path>
+        
+        <!-- Deep Learning -->
+        <circle fill="#1A2980" cx="200" cy="450" r="80"></circle>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="200" y="455">
+            Deep Learning
+        </text>
+        <path d="M280,450 L320,380" stroke="#1A2980" stroke-width="4"></path>
+        
+        <!-- NLP -->
+        <circle fill="#1A2980" cx="600" cy="450" r="80"></circle>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="600" y="440">
+            Natural Language
+        </text>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="600" y="465">
+            Processing
+        </text>
+        <path d="M520,450 L480,380" stroke="#1A2980" stroke-width="4"></path>
+        
+        <!-- Decorative Elements -->
+        <circle fill="#FF4081" cx="400" cy="100" r="20"></circle>
+        <circle fill="#FF4081" cx="400" cy="500" r="20"></circle>
+        <circle fill="#FF4081" cx="100" cy="300" r="20"></circle>
+        <circle fill="#FF4081" cx="700" cy="300" r="20"></circle>
+    </g>
+</svg>

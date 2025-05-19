@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>AI Efficiency Chart</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"></rect>
+        
+        <!-- Chart Background -->
+        <rect fill="#FFFFFF" x="100" y="50" width="600" height="400" rx="10"></rect>
+        
+        <!-- Chart Title -->
+        <text font-family="Arial" font-size="24" font-weight="bold" fill="#1A2980" text-anchor="middle" x="400" y="30">
+            AI Efficiency Gains Across Industries
+        </text>
+        
+        <!-- X Axis -->
+        <line x1="100" y1="450" x2="700" y2="450" stroke="#333333" stroke-width="2"></line>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="175" y="480">
+            Healthcare
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="325" y="480">
+            Finance
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="475" y="480">
+            Manufacturing
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="625" y="480">
+            Customer Service
+        </text>
+        
+        <!-- Y Axis -->
+        <line x1="100" y1="50" x2="100" y2="450" stroke="#333333" stroke-width="2"></line>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="450">
+            0%
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="350">
+            25%
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="250">
+            50%
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="150">
+            75%
+        </text>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="end" x="90" y="50">
+            100%
+        </text>
+        
+        <!-- Bars -->
+        <rect fill="#26D0CE" x="125" y="200" width="100" height="250"></rect>
+        <rect fill="#26D0CE" x="275" y="150" width="100" height="300"></rect>
+        <rect fill="#26D0CE" x="425" y="250" width="100" height="200"></rect>
+        <rect fill="#26D0CE" x="575" y="100" width="100" height="350"></rect>
+        
+        <!-- Percentage Labels -->
+        <text font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="175" y="225">
+            62%
+        </text>
+        <text font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="325" y="175">
+            75%
+        </text>
+        <text font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="475" y="275">
+            50%
+        </text>
+        <text font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="625" y="125">
+            87%
+        </text>
+        
+        <!-- Legend -->
+        <rect fill="#26D0CE" x="600" y="20" width="20" height="20"></rect>
+        <text font-family="Arial" font-size="14" fill="#333333" x="630" y="35">
+            Efficiency Gain
+        </text>
+    </g>
+</svg>

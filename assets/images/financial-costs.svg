@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>AI Financial Costs</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"></rect>
+        
+        <!-- Title -->
+        <text font-family="Arial" font-size="24" font-weight="bold" fill="#1A2980" text-anchor="middle" x="400" y="40">
+            Financial Costs of AI Implementation
+        </text>
+        
+        <!-- Chart Background -->
+        <rect fill="#FFFFFF" x="100" y="80" width="600" height="380" rx="10"></rect>
+        
+        <!-- Pie Chart -->
+        <circle fill="#FFFFFF" cx="250" cy="250" r="120"></circle>
+        
+        <!-- Pie Slices -->
+        <path d="M250,250 L250,130 A120,120 0 0,1 358,310 Z" fill="#1A2980"></path>
+        <path d="M250,250 L358,310 A120,120 0 0,1 250,370 Z" fill="#26D0CE"></path>
+        <path d="M250,250 L250,370 A120,120 0 0,1 142,310 Z" fill="#FF4081"></path>
+        <path d="M250,250 L142,310 A120,120 0 0,1 250,130 Z" fill="#FFC107"></path>
+        
+        <!-- Legend -->
+        <rect fill="#1A2980" x="450" y="160" width="20" height="20"></rect>
+        <text font-family="Arial" font-size="16" fill="#333333" x="480" y="175">
+            Hardware (35%)
+        </text>
+        
+        <rect fill="#26D0CE" x="450" y="200" width="20" height="20"></rect>
+        <text font-family="Arial" font-size="16" fill="#333333" x="480" y="215">
+            Software (25%)
+        </text>
+        
+        <rect fill="#FF4081" x="450" y="240" width="20" height="20"></rect>
+        <text font-family="Arial" font-size="16" fill="#333333" x="480" y="255">
+            Talent (30%)
+        </text>
+        
+        <rect fill="#FFC107" x="450" y="280" width="20" height="20"></rect>
+        <text font-family="Arial" font-size="16" fill="#333333" x="480" y="295">
+            Maintenance (10%)
+        </text>
+        
+        <!-- Cost Breakdown -->
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#1A2980" x="150" y="400">
+            Average Initial Investment: $500,000 - $5 million
+        </text>
+        
+        <!-- ROI Timeline -->
+        <line x1="150" y1="440" x2="650" y2="440" stroke="#333333" stroke-width="2"></line>
+        <circle fill="#FF4081" cx="200" cy="440" r="5"></circle>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="200" y="460">
+            Investment
+        </text>
+        
+        <circle fill="#FF4081" cx="350" cy="440" r="5"></circle>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="350" y="460">
+            1 Year
+        </text>
+        
+        <circle fill="#FF4081" cx="500" cy="440" r="5"></circle>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="500" y="460">
+            2 Years
+        </text>
+        
+        <circle fill="#FF4081" cx="650" cy="440" r="5"></circle>
+        <text font-family="Arial" font-size="14" fill="#333333" text-anchor="middle" x="650" y="460">
+            ROI
+        </text>
+        
+        <path d="M200,440 L350,420 L500,400 L650,360" stroke="#26D0CE" stroke-width="3" fill="none"></path>
+    </g>
+</svg>

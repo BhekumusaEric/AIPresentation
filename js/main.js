@@ -1,6 +1,45 @@
 // Main JavaScript for AI Presentation
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize AOS animations
+    AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true,
+        mirror: false
+    });
+
+    // Initialize Lottie animations
+    if (document.getElementById('robotAnimation')) {
+        lottie.loadAnimation({
+            container: document.getElementById('robotAnimation'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'assets/animations/robot-animation.json'
+        });
+    }
+
+    if (document.getElementById('aiBrainAnimation')) {
+        lottie.loadAnimation({
+            container: document.getElementById('aiBrainAnimation'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'assets/animations/ai-brain.json'
+        });
+    }
+
+    if (document.getElementById('balanceScaleAnimation')) {
+        lottie.loadAnimation({
+            container: document.getElementById('balanceScaleAnimation'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'assets/animations/balance-scale.json'
+        });
+    }
+
     // Initialize Reveal.js
     Reveal.initialize({
         // Display presentation controls
@@ -199,8 +238,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.body.appendChild(customControls);
 
-    // Add animation to elements when they become visible
+    // Refresh AOS animations when slide changes
     Reveal.addEventListener('slidechanged', function(event) {
+        setTimeout(function() {
+            AOS.refresh();
+        }, 100);
+
         // Get all elements with animation classes in the current slide
         const currentSlide = event.currentSlide;
         const animatedElements = currentSlide.querySelectorAll('.fade-in, .slide-in-right');

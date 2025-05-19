@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Algorithmic Bias Illustration</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"></rect>
+        
+        <!-- Title -->
+        <text font-family="Arial" font-size="24" font-weight="bold" fill="#1A2980" text-anchor="middle" x="400" y="40">
+            Understanding Algorithmic Bias
+        </text>
+        
+        <!-- Biased Data Input -->
+        <rect fill="#1A2980" x="100" y="100" width="150" height="80" rx="10"></rect>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="175" y="145">
+            Biased Data Input
+        </text>
+        
+        <!-- AI Algorithm -->
+        <rect fill="#26D0CE" x="325" y="100" width="150" height="80" rx="10"></rect>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="145">
+            AI Algorithm
+        </text>
+        
+        <!-- Biased Output -->
+        <rect fill="#FF4081" x="550" y="100" width="150" height="80" rx="10"></rect>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="625" y="145">
+            Biased Output
+        </text>
+        
+        <!-- Arrows -->
+        <path d="M250,140 L325,140" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polygon fill="#333333" points="325,140 315,135 315,145"></polygon>
+        
+        <path d="M475,140 L550,140" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polygon fill="#333333" points="550,140 540,135 540,145"></polygon>
+        
+        <!-- Bias Amplification -->
+        <path d="M400,180 L400,220" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polygon fill="#333333" points="400,220 395,210 405,210"></polygon>
+        
+        <rect fill="#FF4081" opacity="0.8" x="325" y="220" width="150" height="40" rx="5"></rect>
+        <text font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="245">
+            Bias Amplification
+        </text>
+        
+        <!-- Examples Section -->
+        <rect fill="#FFFFFF" x="100" y="300" width="600" height="150" rx="10"></rect>
+        <text font-family="Arial" font-size="20" font-weight="bold" fill="#1A2980" text-anchor="middle" x="400" y="330">
+            Examples of Algorithmic Bias
+        </text>
+        
+        <!-- Example 1 -->
+        <circle fill="#1A2980" cx="150" cy="370" r="10"></circle>
+        <text font-family="Arial" font-size="16" fill="#333333" x="170" y="375">
+            Facial recognition systems less accurate for minorities
+        </text>
+        
+        <!-- Example 2 -->
+        <circle fill="#1A2980" cx="150" cy="410" r="10"></circle>
+        <text font-family="Arial" font-size="16" fill="#333333" x="170" y="415">
+            Hiring algorithms favoring certain demographic groups
+        </text>
+        
+        <!-- Example 3 -->
+        <circle fill="#1A2980" cx="450" cy="370" r="10"></circle>
+        <text font-family="Arial" font-size="16" fill="#333333" x="470" y="375">
+            Credit scoring systems with gender/racial disparities
+        </text>
+        
+        <!-- Example 4 -->
+        <circle fill="#1A2980" cx="450" cy="410" r="10"></circle>
+        <text font-family="Arial" font-size="16" fill="#333333" x="470" y="415">
+            Healthcare algorithms with socioeconomic biases
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="500px" viewBox="0 0 800 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>AI Decision Making Process</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F5F5" x="0" y="0" width="800" height="500"></rect>
+        
+        <!-- Title -->
+        <text font-family="Arial" font-size="24" font-weight="bold" fill="#1A2980" text-anchor="middle" x="400" y="40">
+            AI Decision Making Process
+        </text>
+        
+        <!-- Data Collection -->
+        <rect fill="#1A2980" x="100" y="100" width="150" height="80" rx="10"></rect>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="175" y="145">
+            Data Collection
+        </text>
+        
+        <!-- Data Processing -->
+        <rect fill="#26D0CE" x="325" y="100" width="150" height="80" rx="10"></rect>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="145">
+            Data Processing
+        </text>
+        
+        <!-- Pattern Recognition -->
+        <rect fill="#1A2980" x="550" y="100" width="150" height="80" rx="10"></rect>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="625" y="145">
+            Pattern Recognition
+        </text>
+        
+        <!-- Analysis -->
+        <rect fill="#26D0CE" x="325" y="250" width="150" height="80" rx="10"></rect>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="295">
+            Analysis
+        </text>
+        
+        <!-- Decision -->
+        <rect fill="#FF4081" x="325" y="400" width="150" height="80" rx="10"></rect>
+        <text font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" x="400" y="445">
+            Decision
+        </text>
+        
+        <!-- Arrows -->
+        <path d="M250,140 L325,140" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polygon fill="#333333" points="325,140 315,135 315,145"></polygon>
+        
+        <path d="M475,140 L550,140" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polygon fill="#333333" points="550,140 540,135 540,145"></polygon>
+        
+        <path d="M625,180 L625,220 L400,220 L400,250" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polygon fill="#333333" points="400,250 395,240 405,240"></polygon>
+        
+        <path d="M400,330 L400,400" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polygon fill="#333333" points="400,400 395,390 405,390"></polygon>
+        
+        <!-- Feedback Loop -->
+        <path d="M325,440 L100,440 L100,180" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,5"></path>
+        <polygon fill="#333333" points="100,180 95,190 105,190"></polygon>
+        <text font-family="Arial" font-size="14" fill="#333333" x="150" y="420">
+            Feedback Loop
+        </text>
+    </g>
+</svg>

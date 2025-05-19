@@ -1,0 +1,223 @@
+/* Main Styles for AI Presentation */
+
+:root {
+    --primary-color: #1a2980;
+    --secondary-color: #26d0ce;
+    --accent-color: #ff4081;
+    --text-color: #333;
+    --light-text: #fff;
+    --background-color: #f5f5f5;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Title Slide */
+.title-slide h1 {
+    font-size: 3.5em;
+    color: var(--primary-color);
+    margin-bottom: 0.2em;
+}
+
+.title-slide h2 {
+    font-size: 2.5em;
+    color: var(--secondary-color);
+    margin-top: 0;
+}
+
+.title-slide .author {
+    font-size: 1.5em;
+    color: var(--text-color);
+    margin-top: 2em;
+}
+
+.navigation-hint {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+/* Section Styling */
+.reveal h2 {
+    color: var(--primary-color);
+    font-size: 2.2em;
+}
+
+.reveal h3 {
+    color: var(--secondary-color);
+    font-size: 1.8em;
+}
+
+/* Definition Box */
+.definition-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-left: 5px solid var(--accent-color);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    margin: 20px 0;
+}
+
+/* Two Column Layout */
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two-column > div {
+    flex: 1;
+    padding: 10px;
+}
+
+.two-column img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.timeline-year {
+    flex: 0 0 100px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.timeline-content {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+/* Pros and Cons */
+.pros-cons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.pros, .cons {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    margin: 0 10px;
+}
+
+.pros {
+    background-color: rgba(76, 175, 80, 0.1);
+    border-left: 5px solid #4CAF50;
+}
+
+.cons {
+    background-color: rgba(244, 67, 54, 0.1);
+    border-left: 5px solid #F44336;
+}
+
+/* Citation */
+.citation {
+    font-size: 0.8em;
+    color: #666;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .two-column {
+        flex-direction: column;
+    }
+
+    .pros-cons {
+        flex-direction: column;
+    }
+
+    .pros, .cons {
+        margin: 10px 0;
+    }
+}
+
+/* Animation Classes */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.slide-in-right {
+    animation: slideInRight 1s ease-in-out;
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* Navigation Controls */
+.custom-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.control-button {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+}
+
+.control-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Print button specific styling */
+.control-button[title="Print slides in portrait mode"] {
+    background-color: rgba(255, 64, 129, 0.7);
+}
+
+.control-button[title="Print slides in portrait mode"]:hover {
+    background-color: var(--accent-color);
+}
+
+/* Print styles */
+@media print {
+    body {
+        background-color: white;
+    }
+
+    .reveal .slides section {
+        background-color: white;
+        color: black;
+    }
+}

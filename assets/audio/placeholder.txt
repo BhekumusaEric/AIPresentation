@@ -1,0 +1,6 @@
+This file is a placeholder. In a real implementation, you would need to add the following audio files:
+
+1. personalization.mp3 - A brief narration about AI personalization capabilities
+2. transportation.mp3 - A brief narration about AI in transportation
+
+For a complete presentation, you would need to create or source these audio files and place them in this directory.
